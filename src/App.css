@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+body {
+  background-color: gold;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.photo {
+  width: 200px;
+  border-radius: 20px 20px ;
+  transition: .7s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.photo:hover {
+  transform: scale(1.1);
+  transition: .7s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image {
+  width: 200px;
+  border-radius: 20px 20px ;
+}
+.image:hover {
+  transform: scale(1.1);
+  transition: .7s;
+}
+.surot {
+  width: 200px;
+  border-radius: 20px 20px ;
+}
+.surot:hover {
+  transform: scale(1.1);
+  transition: .7s;
+}
+.count {
+  width: 1300px;
+  position: relative;
+  left: 400px;
+  bottom: 850px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  
+}
+.images {
   display: flex;
+  gap: 1rem;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  top: 10px;
+  left: 80px;
 }
-
-.App-link {
-  color: #61dafb;
+.cars {
+  width: 200px;
+  border-radius: 20px 20px ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cars:hover {
+  transform: scale(1.1);
+  transition: .7s;
+}
+.sea {
+  width: 200px;
+  border-radius:20px 20px ;
+}
+.sea:hover {
+  transform: scale(1.1);
+  transition: .7s;
+}
+.mosque {
+  width: 200px;
+  border-radius: 20px 20px ;
+}
+.mosque:hover {
+  transform: scale(1.1);
+  transition: .7s;
 }
